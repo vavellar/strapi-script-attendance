@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "servicos",
+  "info": {
+    "singularName": "servico",
+    "pluralName": "servicos",
+    "displayName": "Serviços",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "service_name": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid"
+    },
+    "concept": {
+      "type": "component",
+      "repeatable": false,
+      "component": "field.field",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_menu_menu_items",
+  "info": {
+    "displayName": "MenuItem",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "route": {
+      "type": "string"
+    }
+  }
+}
