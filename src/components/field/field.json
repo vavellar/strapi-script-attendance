@@ -1,15 +1,22 @@
 {
   "collectionName": "components_field_fields",
   "info": {
-    "displayName": "Field"
+    "displayName": "Field",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "field_title": {
+    "title": {
       "type": "string"
     },
-    "field_description": {
+    "description": {
       "type": "richtext"
+    },
+    "instructions": {
+      "displayName": "Instruções",
+      "type": "component",
+      "repeatable": true,
+      "component": "instrucoes.instrucoes"
     }
   }
 }

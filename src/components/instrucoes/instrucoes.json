@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_instrucoes_instrucoes",
+  "info": {
+    "displayName": "Instruções",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

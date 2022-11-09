@@ -18,11 +18,11 @@
     "slug": {
       "type": "uid"
     },
-    "concept": {
-      "type": "component",
-      "repeatable": false,
-      "component": "field.field",
-      "required": true
+    "content": {
+      "type": "dynamiczone",
+      "components": [
+        "field.field"
+      ]
     }
   }
 }
